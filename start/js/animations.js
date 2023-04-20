@@ -1,0 +1,1 @@
+function goTo(e){document.getElementById(e).scrollIntoView()}function agreeTerms(){var e=document.getElementById("submitBtn");document.getElementById("agreeCheckbox")&&(document.getElementById("agreeCheckbox").checked?(e.disabled=!1,e.style.backgroundColor="#10d078",e.style.cursor="pointer"):(e.disabled=!0,e.style.backgroundColor="#7cdfb1",e.style.cursor="auto"))}agreeTerms();
